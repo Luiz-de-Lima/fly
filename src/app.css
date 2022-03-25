@@ -1,0 +1,28 @@
+.main {
+    background-color: azure;
+    font-family:'Roboto',sans-serif;
+}
+
+.logo {
+    background-color: #D2C6FF;
+    width           : 768px;
+    height          : 385px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.buttons {
+    display  : flex;
+    flex-wrap: wrap;
+    width    : 735px;
+    margin   : 2rem;
+    color: black;
+    
+}
+
+.auto-complete {
+    margin: 0.5rem 0.5rem;
+    font-size: 18px;
+    font-weight:700;
+}
