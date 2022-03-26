@@ -107,9 +107,10 @@ const App = () => {
                     renderInput={(params) => <TextField {...params} label="data volta" />}
                     className="auto-complete"
                 />
-                <Button variant="contained">Buscar</Button>
+                <Button variant="contained" className="btn" style={{ backgroundColor: '#11004E', margin: '0 auto', padding: '0.5rem 1rem' }}>Buscar</Button>
 
             </div>
+            <h2>Selecionar uma opção de voo</h2>
         </main>
     )
 }
