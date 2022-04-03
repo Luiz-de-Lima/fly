@@ -1,44 +1,90 @@
 * {
-    margin    : 0;
-    padding   : 0;
-    box-sizing: border-box;
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
 }
 
 body {
-    display        : flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+  background : #E5E5E5;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main {
+  display    : flex;
+  align-items: center;
+}
 
-    font-family: 'Roboto', sans-serif;
+.fly {
+  margin: auto 3rem;
 }
 
 .logo {
-    background-color: #D2C6FF;
-    width           : 768px;
-    height          : 385px;
-    display         : flex;
-    justify-content : center;
-    align-items     : center;
+  background-color: #D2C6FF;
+  width           : 768px;
+  height          : 385px;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
 }
 
 .buttons {
-    display  : flex;
-    flex-wrap: wrap;
-    width    : 735px;
-    margin   : 2rem;
-    color    : black;
+  display         : flex;
+  justify-content : center;
+  flex-wrap       : wrap;
+  width           : 766px;
+  color           : black;
+  background-color: #fff;
+
 
 }
 
 .auto-complete {
-    margin     : 0.5rem 0.5rem;
-    font-size  : 18px;
-    font-weight: 700;
+  margin     : 0.5rem 0.5rem;
+  font-size  : 18px;
+  font-weight: 700;
 }
-.btn{
-    background-color:#11004E;
+
+.inputdata {
+  margin       : 0.5rem 0.5rem;
+  padding      : 1.2rem 5rem;
+  border       : 1px solid #D2C6FF;
+  border-radius: 2px;
+  width        : 345px;
+  outline      : 0;
+  font-weight  : 700;
+}
+
+.opcoes-voos {
+  display  : flex;
+  flex-wrap: wrap;
+}
+
+.opcoes-voos p {
+  width      : 100%;
+  font-size  : 24px;
+  font-weight: 400;
+  padding    : 1rem 0;
+}
+
+.paises {
+  display         : flex;
+  justify-content : space-around;
+  background-color: #ffffff;
+  border          : 1px solid #E0E0E0;
+  width           : 836px;
+  height          : 138px;
+  border-radius   : 0.5rem;
+}
+
+.opcoes-horarios p {
+  font-size  : 3rem;
+  font-weight: 500;
+  color      : #11004E;
+}
+
+.opcoes-horarios span {
+  font-size  : 26px;
+  color      : #D2C6FF;
+  font-weight: 500;
+
 }
